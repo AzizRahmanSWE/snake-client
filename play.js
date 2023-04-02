@@ -6,7 +6,10 @@ const connect = function () {
     host: "172.17.192.24",
     port: 50541,
   });
-
+  
+  conn.on("data", (data) => {
+    console.log("you ded cuz you idled")
+  })
 
   // interpret incoming data as text
   conn.setEncoding("utf8");
