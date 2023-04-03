@@ -1,5 +1,5 @@
 const net = require("net");
-// const { IP, PORT } = require("./constants");
+
 
 const connect = function () {
   const conn = net.createConnection({
@@ -21,7 +21,6 @@ const connect = function () {
       // setInterval(() => {
       //   conn.write("Move: down");
       //   conn.write("Move: right");
-      //   conn.write("Move: down");
       // }, 500);
   });
 
