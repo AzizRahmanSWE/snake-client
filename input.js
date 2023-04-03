@@ -1,4 +1,3 @@
-// Require the (w,s,d,a) from constants directory
 const {
   MOVE_UP_DATA,
   MOVE_DOWN_DATA,
