@@ -1,4 +1,4 @@
-const IP = "172.17.192.24";
+const IP = "localhost";
 const PORT = "50541";
 const MOVE_UP_DATA = "w";
 const MOVE_DOWN_DATA = "s";
